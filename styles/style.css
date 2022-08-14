@@ -41,8 +41,16 @@ header #navbar {
 #navbar ul a:hover {
     text-decoration: underline;
 }
-#profile-picture, #app-icon {
-    height: 32px;
+#navbar ul .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem
+}
+#navbar ul img {
+    border-radius: 50%;
 }
 #profile-picture {
     border-radius: 50%;
@@ -75,8 +83,25 @@ main #google {
 #search-container:hover {
     box-shadow: 0 3px 3px rgba(0,0,0,0.1);
 }
+#magnifying-glass {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/49/49116.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width:1.8rem;
+    height:1.8rem;
+}
+#microphone-image {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
 #magnifying-glass, #microphone-image {
-    padding: 0 3%;
+    padding: 0 4%;
 }
 #search {
     width: 35vw;
