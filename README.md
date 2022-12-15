@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-1. Clone the repository: git clone https://github.com/user/repo.git
+1. Clone the repository: git clone https://github.com/ionuser13/Google-CLone.git
 
 2. Open the `index.html` file in your web browser
 
